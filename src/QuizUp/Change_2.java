@@ -6,7 +6,7 @@ public class Change_2 extends JFrame
 
 	public static void main(String []args)throws Exception
 	{
-		
+
 		String url ="jdbc:mysql://localhost/quiz";
 		String username ="root";
 		String pass= "";
@@ -16,11 +16,11 @@ public class Change_2 extends JFrame
 		Connection con = DriverManager.getConnection(url,username,pass);
 		PreparedStatement st = con.prepareStatement(query);
 		int count =st.executeUpdate();//DDL DML TCL
-		System.out.println(count+"Rows affected");
+		System.out.println(count+"Rows affected so do the following changes");
 		st.close();
 		con.close();
-		
+
 		}
 
-	
+
 }
