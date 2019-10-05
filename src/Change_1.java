@@ -35,7 +35,7 @@ public class Change_1 {
 		 Font fo = new Font("Arial",Font.BOLD,30);
 		 l1.setFont(fo);
 		 b1 = new JRadioButton("a. Larry Ellison");
-		 b1.setBounds(100,350,200,100);
+		 b1.setBounds(150,400,200,100);    //made width from 100 to 150 and length from 350 to 400 pixels     
 		 b2 = new JRadioButton("b. Ed Oats");
 		 b2.setBounds(100,450,200,100);
 		 b3 = new JRadioButton("c. Bob Miner");
