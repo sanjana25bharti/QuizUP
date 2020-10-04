@@ -25,13 +25,13 @@ public class Change_1 {
 		JFrame f = new JFrame();
 		f.setTitle("QUIZUP");
 		f.setVisible(true);
-		f.setBounds(100,100,1000,1000);
+		f.setBounds(200,200,1000,1000);
 		f.setDefaultCloseOperation(f.EXIT_ON_CLOSE);
 		
 		c= f.getContentPane();
 		c.setLayout(null);
 		 l1 = new JLabel("Q1.	Who is father of ORACLE");
-		 l1.setBounds(100,50,500,300);
+		 l1.setBounds(150,100,500,300);
 		 Font fo = new Font("Arial",Font.BOLD,30);
 		 l1.setFont(fo);
 		 b1 = new JRadioButton("a. Larry Ellison");
